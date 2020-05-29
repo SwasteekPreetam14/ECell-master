@@ -283,6 +283,10 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
+.nav-menu .menuvisible .img1{
+  display: none;
+}
+
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
   color: #03C4EB;
 }
@@ -372,6 +376,20 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   display: block;
   outline: none;
+  /*margin: -10px;*/
+}
+
+.img2 {
+  color: #fff;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 10px 22px 10px 15px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  outline: none;
+  margin: -10px;
 }
 
 #mobile-nav ul li a:hover {
@@ -381,9 +399,15 @@ h1, h2, h3, h4, h5, h6 {
 #mobile-nav ul li li {
   padding-left: 30px;
 }
-#mobile-nav img{
+#mobile-nav .img1 img{
+  max-width: 70%;
+  padding-left: 60px;
+}
+
+#mobile-nav .img2 img{
   display: none;
 }
+
 #mobile-nav ul .menu-has-children i {
   position: absolute;
   right: 0;
